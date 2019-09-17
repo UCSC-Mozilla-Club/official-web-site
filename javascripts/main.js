@@ -17,3 +17,16 @@ var changeContent = async (page) => {
 $(document).ready(function () {
     $("root").on("load", changeContent('home.html'));
 });
+
+$(document).ready(function () {
+    $("rightSidebar").on("load", loadSidebar());
+});
+
+var loadSidebar = async () => {
+    var page = await fetch("right-sidebar.html");
+    if (page.status == 200) {
+        document.getElementById("rightSidebar").innerHTML = await page.text();
+    } else {
+        document.getElementById("rightSidebar").innerHTML = "Something went wrong.";
+    }
+}
