@@ -1,35 +1,99 @@
-header {
-  /* background-color: #180066; */
-  /* height: 200px; */
+#root {
+  padding-top: 80px; 
+  padding-bottom: 50px; 
 }
 
-.nav {
-  margin: 20px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.club-banner {
+  margin: 10px;
+  text-align: center
 }
 
-.nav-item {
-  margin-left: 20px;
+.club-banner-image {
+  height: 200px;
+  width: 200px;
+  box-shadow: gray 0px 0px 20px;
+  border-radius:50%;
+}
+
+.club-title {
+  text-align: center;
+  text-shadow: gray 2px 2px 5px;
+}
+
+.nav-link, .navbar-brand {
+  outline: none;
+}
+
+.footer {
+  text-align-last: center;
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  background-color: #343a40;
+  color: gray;
   padding: 10px;
-  font-size: 0.8rem;
-  /* font-weight: 600; */
 }
 
-.nav-item a {
-  color: black;
+.right-div-box {
+  border: #343a40 2px solid;
+  border-radius: 10px;
+  margin:0px 10px 20px 10px;
+
 }
 
-.nav-item a:visited {
-  color: black;
+.right-div-box-title {
+  background-color: #343a40;
+  border-radius: 4px 4px 0px 0px;
+  color: white;
+  padding: 7px 10px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.nav-item a:hover {
-  /* color: blue; */
-  text-decoration: none;
+.right-div-box-content {
+  padding: 5px;
 }
 
-.nav-item:hover {
-  /* color: blue; */
-  transform: scale(1.2);
-  /* text-decoration: none; */
+.social-icon {
+  outline: none;
+  transition: transform 200ms;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+.social-icon-bar{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.event-list-tile {
+  margin: 1px;
+  transition: box-shadow 200ms;
+}
+
+.event-list-tile:hover {
+  box-shadow: #343a40 1px 1px 2px; 
+}
+
+.event-list-tile img{
+  height: auto;
+  width: 100%;
+  background-size: fixed;
+}
+
+.event-list-tile-content {
+ 
+}
+
+.event-list-tile-content .title{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.event-list-tile-content .date{
+  color:grey;
+  font-size: 14px;
 }
