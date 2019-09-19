@@ -112,4 +112,14 @@ body {
 
 .card {
   margin: 5px auto 5px auto;
+  transition: transform 200ms,box-shadow 200ms;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: #343a40 5px 5px 13px;
+}
+
+.team-root {
+  margin-bottom: 10px;
 }
