@@ -3,5 +3,40 @@
         "name": "Random Name1",
         "position": "Position 2",
         "image-url": "assets/images/man-1.jpg"
+    },
+    {
+        "name": "Random Name2",
+        "position": "Position 3",
+        "image-url": "assets/images/woman-1.jpg"
+    },
+    {
+        "name": "Random Name3",
+        "position": "Position 4",
+        "image-url": "assets/images/man-1.jpg"
+    },
+    {
+        "name": "Random Name4",
+        "position": "Position 5",
+        "image-url": "assets/images/woman-1.jpg"
+    },
+    {
+        "name": "Random Name5",
+        "position": "Position 6",
+        "image-url": "assets/images/woman-1.jpg"
+    },
+    {
+        "name": "Random Name6",
+        "position": "Position 7",
+        "image-url": "assets/images/man-1.jpg"
+    },
+    {
+        "name": "Random Name7",
+        "position": "Position 8",
+        "image-url": "assets/images/man-1.jpg"
+    },
+    {
+        "name": "Random Name8",
+        "position": "Position 9",
+        "image-url": "assets/images/woman-1.jpg"
     }
 ]

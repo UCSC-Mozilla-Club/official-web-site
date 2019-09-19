@@ -38,10 +38,20 @@ var loadTeam = async () => {
     var teamResponse = await fetch("data/team.json");
     var team = JSON.parse(await teamResponse.text());
     var view = "";
-    team.forEach((element) => view += element['name']);
+    team.forEach((element) => view += teamCard(element));
     document.getElementById("team").innerHTML = view;
 }
 
 var teamCard = (member) => {
-    var card = "<div>" + member + "</div>";
+    var card = "<div class=\"col-lg-4 col-md-12 col-sm-12 col-12\">"
+    + "<div class=\"card\" style=\"width: 18rem;\">"
+        + "<div class=\"card-header\">" + member['name'] + "</div>"
+        + "<div class=\"card-body\">"
+        + "<img class=\"card-img-top\" src=\"" + member['image-url'] + "\" style=\"width:220px;height:250px;margin:auto;\">"
+        + "<div class=\"card-title\">"+member["position"]+"</div>"
+        + "</div>"
+        + "</div>"
+        + "</div>";
+    console.log(card);
+    return card;
 }

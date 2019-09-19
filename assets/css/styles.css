@@ -109,3 +109,7 @@ body {
   color:grey;
   font-size: 14px;
 }
+
+.card {
+  margin: 5px auto 5px auto;
+}
