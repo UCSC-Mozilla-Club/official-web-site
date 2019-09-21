@@ -1,6 +1,14 @@
+body {
+  background-image: url('../images/background.jpg');
+}
+
 #root {
   padding-top: 80px; 
   padding-bottom: 50px; 
+}
+
+#rightSidebar {
+  padding: 80px 0px 50px 0px; 
 }
 
 .club-banner {
@@ -38,6 +46,7 @@
   border: #343a40 2px solid;
   border-radius: 10px;
   margin:0px 10px 20px 10px;
+  background-color: white;
 
 }
 
@@ -56,11 +65,12 @@
 
 .social-icon {
   outline: none;
-  transition: transform 200ms;
+  transition: transform 200ms, box-shadow 200ms;
 }
 
 .social-icon:hover {
   transform: scale(1.1);
+  text-shadow: #343a40 2px 1px 10px;
 }
 
 .social-icon-bar{
@@ -71,11 +81,13 @@
 
 .event-list-tile {
   margin: 1px;
-  transition: box-shadow 200ms;
+  transition: box-shadow 200ms,background-color 200ms;
 }
 
 .event-list-tile:hover {
   box-shadow: #343a40 1px 1px 2px; 
+  cursor: pointer;
+  background-color: #f3f3f3;
 }
 
 .event-list-tile img{
@@ -96,4 +108,18 @@
 .event-list-tile-content .date{
   color:grey;
   font-size: 14px;
+}
+
+.card {
+  margin: 5px auto 5px auto;
+  transition: transform 200ms,box-shadow 200ms;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: #343a40 5px 5px 13px;
+}
+
+.team-root {
+  margin-bottom: 10px;
 }
