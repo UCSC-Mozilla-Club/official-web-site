@@ -25,12 +25,25 @@ $(document).ready(function () {
     $("rightSidebar").on("load", loadSidebar());
 });
 
+$(document).ready(function () {
+    $("footer").on("load", loadFooter());
+});
+
 var loadSidebar = async () => {
     var page = await fetch("right-sidebar.html");
     if (page.status == 200) {
         document.getElementById("rightSidebar").innerHTML = await page.text();
     } else {
         document.getElementById("rightSidebar").innerHTML = "Something went wrong.";
+    }
+}
+
+var loadFooter = async () => {
+    var page = await fetch("footer.html");
+    if (page.status == 200) {
+        document.getElementById("footer").innerHTML = await page.text();
+    } else {
+        document.getElementById("footer").innerHTML = "Something went wrong.";
     }
 }
 
