@@ -1,4 +1,8 @@
 body {
+  background-image: url('../images/home-background1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #root {
@@ -6,18 +10,66 @@ body {
   padding-bottom: 50px;
 }
 
-#rightSidebar {
-  padding: 80px 0px 50px 0px;
+/* .navbar { */
+  /* padding: 0; */
+/* } */
+
+/* #rightSidebar { */
+  /* padding: 80px 0px 50px 0px;  */
+/* } */
+
+/* .club-banner { */
+  /* margin: 10px; */
+  /* text-align: left; */
+/* } */
+
+/* .club-banner-image { */
+  /* height: 300px; */
+  /* width: 200px; */
+  /* box-shadow: gray 0px 0px 20px; */
+  /* border-radius: 50%; */
+/* } */
+
+/* .club-logo { */
+  /* padding-left: 20px; */
+/* } */
+
+.nav-item {
+  margin: 20px;
+  /* padding: 10px; */
 }
 
-.club-banner {
-  margin: 10px;
+.nav-item:hover {
+  border-radius: 8px;
+  border: solid #097ca4 1px;
+}
+
+.nav-item a:hover {
+  color: #097ca4;
+}
+
+.home-content {
+  margin-top: 20px;
+  padding: 0;
+}
+
+.cover {
+  height: 700px;
+  padding: 0;
+}
+
+.cover div {
+  font-size: 6em;
+  padding: 100px;
+}
+
+.about {
+  margin-top: 100px;
   text-align: center;
 }
 
-.club-banner-image {
-  height: 200px;
-  width: 200px;
+.heading h2 {
+  font-size: 4em;
 }
 
 .club-title {
@@ -28,9 +80,12 @@ body {
 .nav-link,
 .navbar-brand {
   outline: none;
+  color: black;
 }
 
 .footer {
+  text-align-last: center;
+  position: relative;
   bottom: 0;
   background-color: #343a40;
   color: gray;
@@ -46,27 +101,27 @@ body {
   color: white;
 }
 
-.right-div-box {
-  border: #343a40 2px solid;
-  border-radius: 10px;
-  margin: 0px 10px 20px 10px;
-  background-color: white;
-}
+/*.right-div-box {*/
+/*  border: #343a40 2px solid;*/
+/*  border-radius: 10px;*/
+/*  margin: 0px 10px 20px 10px;*/
+/*  background-color: white;*/
+/*}*/
 
-.right-div-box-title {
-  background-color: #343a40;
-  border-radius: 4px 4px 0px 0px;
-  color: white;
-  padding: 7px 10px;
-  font-size: 20px;
-  font-weight: bold;
-}
+/*.right-div-box-title {*/
+/*  background-color: #343a40;*/
+/*  border-radius: 4px 4px 0px 0px;*/
+/*  color: white;*/
+/*  padding: 7px 10px;*/
+/*  font-size: 20px;*/
+/*  font-weight: bold;*/
+/*} */*/
 
-.right-div-box-content {
+/* .right-div-box-content {
   padding: 5px;
-}
+} */
 
-.social-icon {
+/* .social-icon {
   outline: none;
   transition: transform 200ms, box-shadow 200ms;
 }
@@ -97,12 +152,13 @@ body {
   height: auto;
   width: 100%;
   background-size: fixed;
-}
+} */
 
-.event-list-tile-content {
-}
+/* .event-list-tile-content {
+ 
+} */
 
-.event-list-tile-content .title {
+/* .event-list-tile-content .title{
   font-weight: bold;
   font-size: 16px;
 }
@@ -110,7 +166,7 @@ body {
 .event-list-tile-content .date {
   color: grey;
   font-size: 14px;
-}
+} */
 
 .card {
   margin: 5px auto 5px auto;

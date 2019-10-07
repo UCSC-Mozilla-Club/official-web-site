@@ -2,9 +2,9 @@ var changeContent = async (file) => {
     var loader = document.getElementById('loader');
     var loaderDiv = document.getElementById('loaderDiv');
     loaderDiv.hidden = false;
-    loader.style = "width: 30%";
+    // loader.style = "width: 30%";
     var page = await fetch(file);
-    loader.style = "width: 50%";
+    // loader.style = "width: 50%";
     if (page.status == 200) {
         document.getElementById("root").innerHTML = await page.text();
         if (file === 'team.html')
@@ -21,22 +21,18 @@ $(document).ready(function () {
     $("root").on("load", changeContent('home.html'));
 });
 
-$(document).ready(function () {
-    $("rightSidebar").on("load", loadSidebar());
-});
+// $(document).ready(function () {
+//     $("rightSidebar").on("load", loadSidebar());
+// });
 
-$(document).ready(function () {
-    $("footer").on("load", loadFooter());
-});
-
-var loadSidebar = async () => {
-    var page = await fetch("right-sidebar.html");
-    if (page.status == 200) {
-        document.getElementById("rightSidebar").innerHTML = await page.text();
-    } else {
-        document.getElementById("rightSidebar").innerHTML = "Something went wrong.";
-    }
-}
+// var loadSidebar = async () => {
+//     var page = await fetch("right-sidebar.html");
+//     if (page.status == 200) {
+//         document.getElementById("rightSidebar").innerHTML = await page.text();
+//     } else {
+//         document.getElementById("rightSidebar").innerHTML = "Something went wrong.";
+//     }
+// }
 
 var loadFooter = async () => {
     var page = await fetch("footer.html");
