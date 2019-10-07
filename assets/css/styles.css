@@ -63,7 +63,7 @@ body {
   padding: 100px;
 }
 
-.about {
+.about, .latest-event {
   margin-top: 100px;
   text-align: center;
 }

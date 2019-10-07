@@ -19,14 +19,17 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/styles.css">
-  <link rel="stylesheet" href="assets/css/home-background1.css">
+  <!-- <link rel="stylesheet" href="assets/css/home-background1.css"> -->
 
   <title>UCSC Mozilla Club</title>
   <link rel="icon" type="image/png" href="assets/images/UCSCMozillaLogo.png" />
 </head>
 
 <body>
+  <!-- TODO add svg background -->
   <!-- <div class="top"></div> -->
   <nav class="navbar navbar-expand-lg fixed-top">
     <a class="navbar-brand" href="#" onclick="changeContent('home.html');">
@@ -59,12 +62,18 @@
       aria-valuemax="100" id="loader"></div>
   </div>
   <!-- <div class="row" style="margin-left: 4px;margin-right: 4px;"> -->
-    <div id="root" class="container-fluid"></div>
-    <!-- <div id="rightSidebar" class="col-12 col-sm-4 col-lg-3"> -->
-    </div>
+  <div id="root" class="container-fluid"></div>
+  <!-- <div id="rightSidebar" class="col-12 col-sm-4 col-lg-3"> -->
+  </div>
   </div>
 
-  <div id="footer" class="container-fluid footer"></div>
+  <div id="footer" class="container-fluid footer">
+    <div class="col-12">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-linkedin-in"></i>
+    </div>
+  </div>
   <script src="javascripts/main.js"></script>
 </body>
 
