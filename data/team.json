@@ -1,42 +1,42 @@
 [
     {
         "name": "Random Name1",
-        "position": "Position 2",
+        "position": "Club Captain",
         "image-url": "assets/images/man-1.jpg"
     },
     {
         "name": "Random Name2",
-        "position": "Position 3",
+        "position": "Marketing and Publicity Lead",
         "image-url": "assets/images/woman-1.jpg"
     },
     {
         "name": "Random Name3",
-        "position": "Position 4",
+        "position": "Membership and Recruite Lead",
         "image-url": "assets/images/man-1.jpg"
     },
     {
         "name": "Random Name4",
-        "position": "Position 5",
+        "position": "Developer Ralations Lead",
         "image-url": "assets/images/woman-1.jpg"
     },
     {
         "name": "Random Name5",
-        "position": "Position 6",
+        "position": "Communications Lead",
         "image-url": "assets/images/woman-1.jpg"
     },
     {
-        "name": "Random Name6",
-        "position": "Position 7",
-        "image-url": "assets/images/man-1.jpg"
-    },
-    {
         "name": "Random Name7",
-        "position": "Position 8",
-        "image-url": "assets/images/man-1.jpg"
+        "position": "WoMoz Team Lead (WoMoz Ambassador)",
+        "image-url": "assets/images/woman-1.jpg"
     },
     {
         "name": "Random Name8",
-        "position": "Position 9",
+        "position": "Co-ordinator",
+        "image-url": "assets/images/woman-1.jpg"
+    },
+    {
+        "name": "Random Name8",
+        "position": "Co-ordinator",
         "image-url": "assets/images/woman-1.jpg"
     }
 ]
