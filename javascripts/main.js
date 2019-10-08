@@ -53,14 +53,15 @@ var loadTeam = async () => {
 
 var teamCard = (member) => {
     var card = "<div class=\"col-lg-4 col-md-12 col-sm-12 col-12\">"
-    + "<div class=\"card\" style=\"width: 18rem;\">"
-        + "<div class=\"card-header\">" + member['name'] + "</div>"
+    + "<div class=\"card\" style=\"width: 20rem;\">"
+        + "<div class=\"card-header\" style=\"text-align: center\">" + member['name'] + "</div>"
         + "<div class=\"card-body\">"
-        + "<img class=\"card-img-top\" src=\"" + member['image-url'] + "\" style=\"width:220px;height:250px;margin:auto;\">"
-        + "<div class=\"card-title\">"+member["position"]+"</div>"
+        + "<img class=\"card-img-top\" src=\"" + member['image-url'] + "\" style=\"width:220px;height:250px;margin:20px;\">"
+        + "<div class=\"card-title\" style=\"text-align: center\">"+member["position"]+"</div>"
         + "</div>"
         + "</div>"
         + "</div>";
     console.log(card);
     return card;
 }
+//TODO get images into a single column
